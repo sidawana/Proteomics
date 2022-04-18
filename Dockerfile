@@ -21,4 +21,4 @@ RUN conda install -c salilab dssp --yes
 RUN conda install -c conda-forge biopython
 RUN conda install  pandas
 RUN pip install pyarrow
-RUN python data_creation.py
+

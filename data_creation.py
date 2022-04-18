@@ -5,6 +5,7 @@ DSSP_LOCATION = './Data/DSSP/'
 PROTEIN_LIST_FILE = "./data/pdb_list.txt"
 PDB_LOCATION = './Data/MMCIF/'
 
+
 if __name__ == "__main__":
     proteins = get_list(PROTEIN_LIST_FILE)
     download_proteins(proteins,PDB_LOCATION)
